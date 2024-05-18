@@ -1,0 +1,78 @@
+body {
+    background-color: #C7B7A3;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+    position: relative;
+}
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://cdn1.vectorstock.com/i/1000x1000/83/30/dices-background-vector-748330.jpg'); 
+    background-size: cover;
+    background-position: center;
+    
+    z-index: -1; 
+     
+}
+
+.container {
+    background-color: #C7B7A3;
+    text-align: center; 
+    padding: 20px; 
+    border-radius: 10px; 
+}
+
+canvas {
+    border: 1px solid rgb(69, 59, 59);
+    display: block;
+    margin: auto;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #F1F1F1;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #7a7161 
+}
+
+#diceCanvas {
+    color: #AD88C6;
+    align: center;
+}
+
+.roll-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #af4c95; 
+    border: none;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.roll-button:hover {
+    background-color: #7469B6; 
+}
